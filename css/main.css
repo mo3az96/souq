@@ -1620,11 +1620,6 @@ html[dir=ltr] .user-anchor.mo-cart-icon {
   top: -5px;
   right: -8px;
 }
-@media (max-width: 767px) {
-  .count {
-    padding-top: 5px;
-  }
-}
 html[dir=ltr] .count {
   right: auto;
   left: 10px;
@@ -1917,6 +1912,11 @@ html[dir=ltr] .nav-foot-link:hover, html[dir=ltr] .nav-foot-link:focus {
 .last-footer-cont {
   background-color: #fff;
   margin-top: 70px;
+}
+@media (max-width: 992px) {
+  .last-footer-cont {
+    margin-top: 40px;
+  }
 }
 
 .last-footer {
